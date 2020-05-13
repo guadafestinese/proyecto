@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1589343648 source:c:\users\usuario\desktop\programacion2020\proyecto2\almuerzo.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado.h"
+	"infoEmpleados.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+	"sector.h"
+
+1589346249 c:\users\usuario\desktop\programacion2020\proyecto2\empleado.h
+	"sector.h"
+
+1589343488 c:\users\usuario\desktop\programacion2020\proyecto2\sector.h
+
+1589345241 c:\users\usuario\desktop\programacion2020\proyecto2\infoempleados.h
+
+1589343870 c:\users\usuario\desktop\programacion2020\proyecto2\comida.h
+
+1589343870 c:\users\usuario\desktop\programacion2020\proyecto2\almuerzo.h
+
+1589343606 c:\users\usuario\desktop\programacion2020\proyecto2\datawarehouse.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"infoEmpleados.h"
+	"comida.h"
+	"almuerzo.h"
+	"sector.h"
+
+1589343685 source:c:\users\usuario\desktop\programacion2020\proyecto2\comida.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"infoEmpleados.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+	"sector.h"
+
+1589343341 source:c:\users\usuario\desktop\programacion2020\proyecto2\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"infoEmpleados.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+	"sector.h"
+
+1589345288 source:c:\users\usuario\desktop\programacion2020\proyecto2\infoempleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"infoEmpleados.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+	"sector.h"
+
+1589343488 source:c:\users\usuario\desktop\programacion2020\proyecto2\sector.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado.h"
+	"infoEmpleados.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+	"sector.h"
+
+1589344147 source:c:\users\usuario\desktop\programacion2020\proyecto2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado.h"
+	"infoEmpleados.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+	"sector.h"
+
