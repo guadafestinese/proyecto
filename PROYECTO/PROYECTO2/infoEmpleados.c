@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "empleado.h"
 #include "infoEmpleados.h"
-#include "comida.h"
-#include "almuerzo.h"
-#include "datawarehouse.h"
-#include "sector.h"
+
+
 
 //(1)-------------------------------------------------------------------------------------------
 void informeEmpleados(eEmpleado vec[], int tam, eSector sectores[], int tamsec)
@@ -104,7 +101,7 @@ char menuInformes()
 void listarEmpleadosPorAnio(eEmpleado vec[], int tam,eSector sectores[], int tamsec)
 {
     int anio;
-    int hayEmpleados = 0;
+    int flag = 0;
 
     system("cls");
     printf("**** Listado de empleados por anio de ingreso ****\n\n");
@@ -115,14 +112,14 @@ void listarEmpleadosPorAnio(eEmpleado vec[], int tam,eSector sectores[], int tam
 
     for (int i=0; i< tam; i++)
     {
-        if (vec[i].isEmpty == 0 && vec[i].fechaIngreso.anio== anio)
+        if (vec[i].isEmpty == 0 && vec[i].fechaIngreso.anio == anio)
         {
             mostrarEmpleado(vec[i], sectores, tamsec);
-            hayEmpleados = 1;
+            flag = 1;
         }
     }
 
-    if ( hayEmpleados == 0)
+    if ( flag == 0)
     {
         printf("\nNo hay empleados que hayan ingresado ese anio. \n");
     }
@@ -152,7 +149,7 @@ void listarEmpleadas(eEmpleado vec[], int tam, eSector sectores[], int tamsec)
 }
 
 //(c)----------------------------------------------------
-void informarTotalSueldosSector(eEmpleado vec[],int tam, eSector sectores[], int tamsec)
+/*void informarTotalSueldosSector(eEmpleado vec[],int tam, eSector sectores[], int tamsec)
 {
     float total=0;
     system("cls");
@@ -165,7 +162,8 @@ void informarTotalSueldosSector(eEmpleado vec[],int tam, eSector sectores[], int
         }
     }
     printf("Total sueldos a pagar $%.2f",total);
-}
+}*/
+
 //(d)-------------------OK---------------------------------------------
 
 void informarEmpleadosDeSector(eEmpleado vec[], int tam, eSector sectores[], int tamsec)

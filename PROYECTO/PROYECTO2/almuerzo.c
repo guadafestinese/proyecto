@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "empleado.h"
-#include "infoEmpleados.h"
-#include "comida.h"
+#include <string.h>
 #include "almuerzo.h"
-#include "datawarehouse.h"
-#include "sector.h"
+#include "empleado.h"
+
+
 
 void inicializarAlmuerzos(eAlmuerzo almuerzos[], int tam){
  for (int i=0; i<tam; i++)

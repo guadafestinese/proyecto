@@ -1,4 +1,4 @@
-#include "sector.h"
+
 
 #ifndef EMPLEADO_H_INCLUDED
 #define EMPLEADO_H_INCLUDED
@@ -19,11 +19,17 @@ typedef struct{
  int idSector;
 }eEmpleado;
 
+typedef struct{
+    int id;
+    char descripcion [20];
+}eSector;
+
+
 #endif
 //(1)
 int menu();
 //(2)
-void bajaEmpleado(eEmpleado vec[], int cant,eSector sectores[], int tamsec);// falta
+void bajaEmpleado(eEmpleado vec[], int tam,eSector sectores[], int tamsec);
 //(3)
 void mostrarEmpleados(eEmpleado vec[], int tam, eSector sectores[], int tamsec);
 //(4)
@@ -37,7 +43,7 @@ void buscarLibre(eEmpleado vec[], int tam);
 //(8)
 int buscarEmpleado(int id, eEmpleado vec[], int tam);
 //(9)
-int altaEmpleado(int id, eEmpleado vec[], int tam, eSector sectores[], int tamsec);
+int altaEmpleado(int idx, eEmpleado vec[], int tam, eSector sectores[], int tamsec);
 //(10)
 void modificarEmpleado(eEmpleado vec[], int tam, eSector sectores[], int tamsec); //falta
 //(11)
@@ -49,4 +55,7 @@ int cargarNombreEmpleado(char nombre[], int id, eEmpleado empleados[],int tam);
 //(14)
 
 void myFgets (char nombre [], int cant);
+int menuModificar();
+void listarSectores(eSector sectores[], int tamSector);
+int cargarDescripcionSector (char descripcion[], int id, eSector sectores[], int tamsec);
 

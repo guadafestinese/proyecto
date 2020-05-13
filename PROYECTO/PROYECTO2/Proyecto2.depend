@@ -83,3 +83,67 @@
 	"datawarehouse.h"
 	"sector.h"
 
+1589393458 source:c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\almuerzo.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado.h"
+	"infoEmpleados.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+
+1589393366 c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\empleado.h
+
+1589343488 c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\sector.h
+
+1589393341 c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\infoempleados.h
+
+1589343870 c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\comida.h
+
+1589343870 c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\almuerzo.h
+
+1589394576 c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\datawarehouse.h
+
+1589409688 source:c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\comida.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"comida.h"
+
+1589393474 source:c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\infoempleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"infoEmpleados.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+
+1589395206 source:c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado.h"
+	"infoEmpleados.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+
+1589390777 source:c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\sector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"infoEmpleados.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+	"sector.h"
+
+1589409688 source:c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"datawarehouse.h"
+

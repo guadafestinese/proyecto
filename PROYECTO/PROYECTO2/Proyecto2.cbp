@@ -51,10 +51,6 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="sector.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="sector.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

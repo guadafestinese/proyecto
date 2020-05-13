@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "empleado.h"
-#include "infoEmpleados.h"
 #include "comida.h"
-#include "almuerzo.h"
-#include "datawarehouse.h"
-#include "sector.h"
+
+
 
 void mostrarComidas(eComida comidas[], int tam){
 printf("Listado de comidas\n");

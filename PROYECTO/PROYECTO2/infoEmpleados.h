@@ -10,7 +10,7 @@ void listarEmpleadosPorAnio(eEmpleado vec[], int tam,eSector sectores[], int tam
 void listarEmpleadas(eEmpleado vec[], int tam,eSector sectores[], int tamsec);
 
 //(c)-------------------------------------------------------------------------------------------
-void informarTotalSueldosSector(eEmpleado vec[], int tam,eSector sectores[], int tamsec);
+//void informarTotalSueldosSector(eEmpleado vec[], int tam,eSector sectores[], int tamsec);
 
 //(d)-------------------------------------------------------------------------------------------
 void informarEmpleadosDeSector(eEmpleado vec[], int tam, eSector sectores[], int tamsec);
