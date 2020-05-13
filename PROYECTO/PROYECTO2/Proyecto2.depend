@@ -147,3 +147,34 @@
 	"empleado.h"
 	"datawarehouse.h"
 
+1589409688 source:c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\proyecto2\comida.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"comida.h"
+
+1589343870 c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\proyecto2\comida.h
+
+1589409688 source:c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\proyecto2\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"datawarehouse.h"
+
+1589393366 c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\proyecto2\empleado.h
+
+1589394576 c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\proyecto2\datawarehouse.h
+
+1589413053 source:c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\proyecto2\almuerzo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"almuerzo.h"
+	"empleado.h"
+	"comida.h"
+
+1589413098 c:\users\usuario\desktop\programacion2020\proyecto2\proyecto\proyecto2\almuerzo.h
+	"empleado.h"
+	"comida.h"
+

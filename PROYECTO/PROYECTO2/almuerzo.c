@@ -3,7 +3,7 @@
 #include <string.h>
 #include "almuerzo.h"
 #include "empleado.h"
-
+#include "comida.h"
 
 
 void inicializarAlmuerzos(eAlmuerzo almuerzos[], int tam){

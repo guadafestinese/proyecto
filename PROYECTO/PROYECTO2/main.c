@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include "empleado.h"
 #include "infoEmpleados.h"
+#include "almuerzo.h"
+#include "datawarehouse.h"
+#include "comida.h"
 
 
 

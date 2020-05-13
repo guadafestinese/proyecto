@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "infoEmpleados.h"
+#include "empleado.h"
 
 
 
@@ -149,20 +150,24 @@ void listarEmpleadas(eEmpleado vec[], int tam, eSector sectores[], int tamsec)
 }
 
 //(c)----------------------------------------------------
-/*void informarTotalSueldosSector(eEmpleado vec[],int tam, eSector sectores[], int tamsec)
+void informarTotalSueldosSector(eEmpleado vec[],int tam, eSector sectores[], int tamsec)
 {
-    float total=0;
+    int idSector;
+    char nombreSector[20];
+    float total;
+
     system("cls");
-    printf("***** Informe total sueldos a pagar *****\n\n");
-    for(int i=0;i<tam;i++)
-    {
-        if(vec[i].isEmpty==0)
-        {
-            total+=vec[i].sueldo;
-        }
-    }
-    printf("Total sueldos a pagar $%.2f",total);
-}*/
+    printf("***** Informe total sueldos sector *****\n\n");
+
+    listarSectores(sectores, tamsec);
+    printf("Ingrese el id sector: ");
+    scanf("%d", &idSector);
+    total= obtenerTotalSueldosSector(idSector, vec, tam);
+    cargarDescripcionSector(nombreSector, idSector, sectores, tamsec);
+
+    printf("Total sueldos sector %s: $%.2f ", nombreSector, total );
+
+}
 
 //(d)-------------------OK---------------------------------------------
 

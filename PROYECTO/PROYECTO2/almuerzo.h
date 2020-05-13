@@ -1,4 +1,5 @@
-
+#include "empleado.h"
+#include "comida.h"
 #ifndef ALMUERZO_H_INCLUDED
 #define ALMUERZO_H_INCLUDED
 
